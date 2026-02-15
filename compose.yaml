@@ -1,0 +1,9 @@
+﻿services:
+  hackernews.api:
+    image: hackernews.api
+    build:
+      context: .
+      dockerfile: HackerNews.Api/Dockerfile
+    ports:
+      - "8080:8080"
+
